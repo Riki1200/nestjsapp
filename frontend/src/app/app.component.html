@@ -1,0 +1,21 @@
+<head>
+
+    <title>{{title}}</title>
+</head>
+
+<main class="container" role="main">
+    <div class="users">
+        <article *ngFor="let user of users">
+            <li class="useritem">
+                Name: {{user?.username}} <br>
+                Age: {{user?.age}}
+            </li>
+        </article>
+    </div>
+</main>
+
+<router-outlet></router-outlet>
+<script>
+
+    JSON.stringify()
+</script>
